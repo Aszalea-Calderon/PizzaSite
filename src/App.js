@@ -1,19 +1,15 @@
 import React from "react";
-import Forms from "./comp/forms/Forms.js";
-import Shipped from "./comp/Shipped.js";
-import Home from "./comp/homepage/banner/Home.js";
-import Option from "./comp/homepage/options/Options.js";
-
-import Nav from "./comp/homepage/nav/Nav.js";
+import { Route, Switch } from "react-router-dom";
+import Forms from "./comp/forms/Forms";
+import PizzaHome from "./PizzaHome";
 
 const App = () => {
   return (
     <>
-      <Nav />
-      <Home />
-      <Option />
-      <Forms />
-      <Shipped />
+      <Switch>
+        <Route exact path="/" component={PizzaHome}></Route>
+        <Route path="/Forms" component={Forms} />
+      </Switch>
     </>
   );
 };

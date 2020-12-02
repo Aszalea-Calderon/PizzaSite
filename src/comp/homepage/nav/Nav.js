@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./navStyle.css";
 
@@ -6,13 +7,13 @@ function Nav() {
   return (
     <div>
       <nav>
-        <h1 className="lambdaEats">Lambda Eats</h1>
-        <a className="navLinks" href="#">
+        <h1 className="lambdaEats">Coders Eats</h1>
+        <Link to="/PizzaHome" className="navLinks">
           Home
-        </a>
-        <a className="navLinks" href="#">
+        </Link>
+        <Link to="#" className="navLinks" href="#">
           Help
-        </a>
+        </Link>
       </nav>
     </div>
   );

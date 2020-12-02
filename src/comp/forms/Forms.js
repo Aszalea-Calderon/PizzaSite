@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Nav from "../homepage/nav/Nav";
-import * as Yup from "yup";
+//import * as Yup from "yup";
 import "./styleForm.css";
 
 function Forms() {

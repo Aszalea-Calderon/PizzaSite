@@ -1,29 +1,30 @@
 import React from "react";
 import "./styleOptions.css";
+import { Link } from "react-router-dom";
 
 function Options() {
   return (
     <div>
       <h2 className="foodOpt">Pizza's in Gotham City</h2>
       <div className="boxes">
-        <a href="../../forms/Forms.js" id="box1" className="box">
+        <Link to="/Forms" id="box1" className="box">
           Vegetarian
-        </a>
-        <div id="box2" className="box">
+        </Link>
+        <Link to="/Forms" id="box2" className="box">
           Meat Lovers
-        </div>
-        <div id="box3" className="box">
+        </Link>
+        <Link to="/Forms" id="box3" className="box">
           The Special
-        </div>
-        <div id="box4" className="box">
+        </Link>
+        <Link to="/Forms" id="box4" className="box">
           The Italian
-        </div>
-        <div id="box5" className="box">
+        </Link>
+        <Link to="/Forms" id="box5" className="box">
           The Cheese Monster
-        </div>
-        <div id="box6" className="box">
+        </Link>
+        <Link to="/Forms" id="box6" className="box">
           Catering
-        </div>
+        </Link>
       </div>
     </div>
   );
