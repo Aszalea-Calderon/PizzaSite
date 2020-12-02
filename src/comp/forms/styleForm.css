@@ -16,8 +16,14 @@
   width: 100%;
 }
 .pizHead {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-radius: 10%;
+  justify-content: center;
   text-decoration: underline;
-  background-color: cornsilk;
+  background-color: #740005;
+  box-shadow: black 1px 1px;
 }
 
 .sizePadding {

@@ -8,7 +8,7 @@ function Nav() {
     <div>
       <nav>
         <h1 className="lambdaEats">Coders Eats</h1>
-        <Link to="/PizzaHome" className="navLinks">
+        <Link to="#" className="navLinks">
           Home
         </Link>
         <Link to="#" className="navLinks" href="#">
